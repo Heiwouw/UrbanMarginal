@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Codegen="http://www.eclipse.org/papyrus/Codegen/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_YqnmQNdyEe-BM87g6wvnIg" name="UrbanMarginal">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_YrH8kNdyEe-BM87g6wvnIg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cTH-ANdyEe-BM87g6wvnIg" name="UrbanMarginal">
+      <packagedElement xmi:type="uml:Class" xmi:id="_cUAu0NdyEe-BM87g6wvnIg" name="Boule" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cUB88NdyEe-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_xUDdUNd2Ee-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cUDLEddyEe-BM87g6wvnIg" name="jeuServeur" visibility="private" type="_cUDLENdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Aze_wtd3Ee-BM87g6wvnIg" name="jeuserveur" type="_cUDLENdyEe-BM87g6wvnIg" association="_AzeYsNd3Ee-BM87g6wvnIg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aze_w9d3Ee-BM87g6wvnIg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aze_xNd3Ee-BM87g6wvnIg" value="1"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cUvuoNdyEe-BM87g6wvnIg" name="Boule" specification="_cUEZMNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cUw8wddyEe-BM87g6wvnIg" name="tireBoule" specification="_cUw8wNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cUEZMNdyEe-BM87g6wvnIg" name="Boule" visibility="public" method="_cUvuoNdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cUw8wNdyEe-BM87g6wvnIg" name="tireBoule" visibility="public" method="_cUw8wddyEe-BM87g6wvnIg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cUBV4NdyEe-BM87g6wvnIg" name="Objet" visibility="public" isAbstract="true">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cV0ssNdyEe-BM87g6wvnIg" name="posX" visibility="protected" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cV1TwNdyEe-BM87g6wvnIg" name="posY" visibility="protected" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cV3I8NdyEe-BM87g6wvnIg" name="toucheObjet" specification="_cV160NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+    return null;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cV160NdyEe-BM87g6wvnIg" name="toucheObjet" visibility="public" method="_cV3I8NdyEe-BM87g6wvnIg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cV2h4NdyEe-BM87g6wvnIg" type="_cVmDMddyEe-BM87g6wvnIg" direction="return"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cV2h4ddyEe-BM87g6wvnIg" name="objet" type="_cUBV4NdyEe-BM87g6wvnIg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cUDLENdyEe-BM87g6wvnIg" name="JeuServeur" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cU_mQNdyEe-BM87g6wvnIg" general="_cUyx8NdyEe-BM87g6wvnIg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_wYHZgNd2Ee-BM87g6wvnIg" general="_cUyx8NdyEe-BM87g6wvnIg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVANUddyEe-BM87g6wvnIg" name="lesMurs" visibility="private" type="_cVANUNdyEe-BM87g6wvnIg" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cVBbcNdyEe-BM87g6wvnIg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cVCCgNdyEe-BM87g6wvnIg" value="*"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cVCpkNdyEe-BM87g6wvnIg" name="defaultValue">
+            <language>JAVA</language>
+            <body>new ArrayList&lt;Mur>()</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVDQoddyEe-BM87g6wvnIg" name="lesJoueurs" visibility="private" type="_cVDQoNdyEe-BM87g6wvnIg" isUnique="false">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cVD3sNdyEe-BM87g6wvnIg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cVD3sddyEe-BM87g6wvnIg" value="*"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cVD3stdyEe-BM87g6wvnIg" name="defaultValue">
+            <language>JAVA</language>
+            <body>new ArrayList&lt;Joueur>()</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVG7ANdyEe-BM87g6wvnIg" name="JeuServeur" specification="_cVEewNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVHiEddyEe-BM87g6wvnIg" name="connexion" specification="_cVHiENdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVHiE9dyEe-BM87g6wvnIg" name="reception" specification="_cVHiEtdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVHiFddyEe-BM87g6wvnIg" name="deconnexion" specification="_cVHiFNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVIJINdyEe-BM87g6wvnIg" name="envoi" specification="_cVHiFtdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVJXQNdyEe-BM87g6wvnIg" name="constructionMurs" specification="_cVIwMNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVEewNdyEe-BM87g6wvnIg" name="JeuServeur" visibility="public" method="_cVG7ANdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVHiENdyEe-BM87g6wvnIg" name="connexion" visibility="public" method="_cVHiEddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVHiEtdyEe-BM87g6wvnIg" name="reception" visibility="public" method="_cVHiE9dyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVHiFNdyEe-BM87g6wvnIg" name="deconnexion" visibility="public" method="_cVHiFddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVHiFtdyEe-BM87g6wvnIg" name="envoi" visibility="public" method="_cVIJINdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVIwMNdyEe-BM87g6wvnIg" name="constructionMurs" visibility="public" method="_cVJXQNdyEe-BM87g6wvnIg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cUyx8NdyEe-BM87g6wvnIg" name="Jeu" visibility="public" isAbstract="true">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU1OMNdyEe-BM87g6wvnIg" name="envoi" specification="_cU0nINdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cUyx8ddyEe-BM87g6wvnIg" name="connexion" visibility="public" isAbstract="true"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cUzZANdyEe-BM87g6wvnIg" name="reception" visibility="public" isAbstract="true"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU0AENdyEe-BM87g6wvnIg" name="deconnexion" visibility="public" isAbstract="true"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU0nINdyEe-BM87g6wvnIg" name="envoi" visibility="public" method="_cU1OMNdyEe-BM87g6wvnIg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cU2cUNdyEe-BM87g6wvnIg" name="JeuClient" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cU3DYNdyEe-BM87g6wvnIg" general="_cUyx8NdyEe-BM87g6wvnIg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_vmcsANd2Ee-BM87g6wvnIg" general="_cUyx8NdyEe-BM87g6wvnIg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU6GsNdyEe-BM87g6wvnIg" name="JeuClient" specification="_cU3DYddyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU7U0NdyEe-BM87g6wvnIg" name="connexion" specification="_cU6twNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU774ddyEe-BM87g6wvnIg" name="reception" specification="_cU774NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU9KANdyEe-BM87g6wvnIg" name="deconnexion" specification="_cU8i8NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cU9xEddyEe-BM87g6wvnIg" name="envoi" specification="_cU9xENdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU3DYddyEe-BM87g6wvnIg" name="JeuClient" visibility="public" method="_cU6GsNdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU6twNdyEe-BM87g6wvnIg" name="connexion" visibility="public" method="_cU7U0NdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU774NdyEe-BM87g6wvnIg" name="reception" visibility="public" method="_cU774ddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU8i8NdyEe-BM87g6wvnIg" name="deconnexion" visibility="public" method="_cU9KANdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cU9xENdyEe-BM87g6wvnIg" name="envoi" visibility="public" method="_cU9xEddyEe-BM87g6wvnIg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cVANUNdyEe-BM87g6wvnIg" name="Mur" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cVv0MNdyEe-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_zSEpMNd2Ee-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVxpYNdyEe-BM87g6wvnIg" name="Mur" specification="_cVv0MddyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVv0MddyEe-BM87g6wvnIg" name="Mur" visibility="public" method="_cVxpYNdyEe-BM87g6wvnIg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_cVDQoNdyEe-BM87g6wvnIg" name="Joueur" visibility="public">
+        <generalization xmi:type="uml:Generalization" xmi:id="_cVLzgNdyEe-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_yPWA4Nd2Ee-BM87g6wvnIg" general="_cUBV4NdyEe-BM87g6wvnIg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVTIQNdyEe-BM87g6wvnIg" name="MAXVIE" visibility="private" isLeaf="true" isStatic="true" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cVUWYNdyEe-BM87g6wvnIg" name="defaultValue">
+            <language>JAVA</language>
+            <body>10</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVU9cNdyEe-BM87g6wvnIg" name="GAIN" visibility="private" isLeaf="true" isStatic="true" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cVVkgNdyEe-BM87g6wvnIg" name="defaultValue">
+            <language>JAVA</language>
+            <body>1</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVWLkNdyEe-BM87g6wvnIg" name="PERTE" visibility="private" isLeaf="true" isStatic="true" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false">
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_cVWyoNdyEe-BM87g6wvnIg" name="defaultValue">
+            <language>JAVA</language>
+            <body>2</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVadANdyEe-BM87g6wvnIg" name="pseudo" visibility="private" type="_cVYAwddyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVbEENdyEe-BM87g6wvnIg" name="numPerso" visibility="private" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVbrINdyEe-BM87g6wvnIg" name="jeuServeur" visibility="private" type="_cUDLENdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVcSMNdyEe-BM87g6wvnIg" name="etape" visibility="private" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVc5QNdyEe-BM87g6wvnIg" name="boule" visibility="private" type="_cUAu0NdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVdgUNdyEe-BM87g6wvnIg" name="vie" visibility="private" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cVeHYNdyEe-BM87g6wvnIg" name="orientation" visibility="private" type="_cVShMNdyEe-BM87g6wvnIg" isUnique="false"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_EaOc8td3Ee-BM87g6wvnIg" name="boule" type="_cUAu0NdyEe-BM87g6wvnIg" association="_EaN14Nd3Ee-BM87g6wvnIg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FyEZoNd3Ee-BM87g6wvnIg"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVhKsNdyEe-BM87g6wvnIg" name="Joueur" specification="_cVeucNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVhxwddyEe-BM87g6wvnIg" name="initPerso" specification="_cVhxwNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVi_4NdyEe-BM87g6wvnIg" name="premierePosition" specification="_cViY0NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVjm8ddyEe-BM87g6wvnIg" name="affiche" specification="_cVjm8NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVkOAddyEe-BM87g6wvnIg" name="action" specification="_cVkOANdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVlcINdyEe-BM87g6wvnIg" name="deplace" specification="_cVk1ENdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVptkNdyEe-BM87g6wvnIg" name="toucheJoueur" specification="_cVmDMNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+    return null;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVq7sNdyEe-BM87g6wvnIg" name="gainVie" specification="_cVqUoNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVriwddyEe-BM87g6wvnIg" name="perteVie" specification="_cVriwNdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVsw4ddyEe-BM87g6wvnIg" name="toucheMur" specification="_cVsJ0NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+    return null;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVt_AddyEe-BM87g6wvnIg" name="estMort" specification="_cVtX8NdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+    return null;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cVumEddyEe-BM87g6wvnIg" name="departJoueur" specification="_cVumENdyEe-BM87g6wvnIg">
+          <language>JAVA</language>
+          <body>&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVeucNdyEe-BM87g6wvnIg" name="Joueur" visibility="public" method="_cVhKsNdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVhxwNdyEe-BM87g6wvnIg" name="initPerso" visibility="public" method="_cVhxwddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cViY0NdyEe-BM87g6wvnIg" name="premierePosition" visibility="private" method="_cVi_4NdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVjm8NdyEe-BM87g6wvnIg" name="affiche" visibility="public" method="_cVjm8ddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVkOANdyEe-BM87g6wvnIg" name="action" visibility="public" method="_cVkOAddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVk1ENdyEe-BM87g6wvnIg" name="deplace" visibility="private" method="_cVlcINdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVmDMNdyEe-BM87g6wvnIg" name="toucheJoueur" visibility="private" method="_cVptkNdyEe-BM87g6wvnIg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cVpGgNdyEe-BM87g6wvnIg" type="_cVmDMddyEe-BM87g6wvnIg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVqUoNdyEe-BM87g6wvnIg" name="gainVie" visibility="public" method="_cVq7sNdyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVriwNdyEe-BM87g6wvnIg" name="perteVie" visibility="public" method="_cVriwddyEe-BM87g6wvnIg"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVsJ0NdyEe-BM87g6wvnIg" name="toucheMur" visibility="private" method="_cVsw4ddyEe-BM87g6wvnIg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cVsw4NdyEe-BM87g6wvnIg" type="_cVmDMddyEe-BM87g6wvnIg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVtX8NdyEe-BM87g6wvnIg" name="estMort" visibility="public" method="_cVt_AddyEe-BM87g6wvnIg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_cVt_ANdyEe-BM87g6wvnIg" type="_cVmDMddyEe-BM87g6wvnIg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_cVumENdyEe-BM87g6wvnIg" name="departJoueur" visibility="public" method="_cVumEddyEe-BM87g6wvnIg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cVR6INdyEe-BM87g6wvnIg" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cVR6IddyEe-BM87g6wvnIg" name="primitivetype">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_cVShMNdyEe-BM87g6wvnIg" name="Integer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cVmDMddyEe-BM87g6wvnIg" name="Boolean"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cVWyoddyEe-BM87g6wvnIg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cVXZsNdyEe-BM87g6wvnIg" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cVYAwNdyEe-BM87g6wvnIg" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cVYAwddyEe-BM87g6wvnIg" name="String"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gW5DgNd0Ee-BM87g6wvnIg" visibility="public" memberEnd="_gW5qkdd0Ee-BM87g6wvnIg _gW5qktd0Ee-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gW5Dgdd0Ee-BM87g6wvnIg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gW5qkNd0Ee-BM87g6wvnIg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gW5qkdd0Ee-BM87g6wvnIg" name="lesJoueurs" type="_cVDQoNdyEe-BM87g6wvnIg" association="_gW5DgNd0Ee-BM87g6wvnIg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pEurcNd2Ee-BM87g6wvnIg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s1_WkNd2Ee-BM87g6wvnIg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gW5qktd0Ee-BM87g6wvnIg" name="jeuserveur" type="_cUDLENdyEe-BM87g6wvnIg" association="_gW5DgNd0Ee-BM87g6wvnIg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rQ8rYNd2Ee-BM87g6wvnIg"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_39R0ENd2Ee-BM87g6wvnIg" memberEnd="_39SbItd2Ee-BM87g6wvnIg _39SbJdd2Ee-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_39SbINd2Ee-BM87g6wvnIg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_39SbIdd2Ee-BM87g6wvnIg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_39SbJdd2Ee-BM87g6wvnIg" type="_cUDLENdyEe-BM87g6wvnIg" association="_39R0ENd2Ee-BM87g6wvnIg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_39SbItd2Ee-BM87g6wvnIg" name="lesMurs" type="_cVANUNdyEe-BM87g6wvnIg" association="_39R0ENd2Ee-BM87g6wvnIg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_39SbI9d2Ee-BM87g6wvnIg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_39SbJNd2Ee-BM87g6wvnIg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_AzeYsNd3Ee-BM87g6wvnIg" memberEnd="_Aze_wtd3Ee-BM87g6wvnIg _Aze_xdd3Ee-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Aze_wNd3Ee-BM87g6wvnIg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Aze_wdd3Ee-BM87g6wvnIg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Aze_xdd3Ee-BM87g6wvnIg" type="_cUAu0NdyEe-BM87g6wvnIg" association="_AzeYsNd3Ee-BM87g6wvnIg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ClkBYNd3Ee-BM87g6wvnIg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cl28UNd3Ee-BM87g6wvnIg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_EaN14Nd3Ee-BM87g6wvnIg" memberEnd="_EaOc8td3Ee-BM87g6wvnIg _EaOc9dd3Ee-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaOc8Nd3Ee-BM87g6wvnIg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaOc8dd3Ee-BM87g6wvnIg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_EaOc9dd3Ee-BM87g6wvnIg" type="_cVDQoNdyEe-BM87g6wvnIg" association="_EaN14Nd3Ee-BM87g6wvnIg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cTVZYNdyEe-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cTX1oNdyEe-BM87g6wvnIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cTg_kNdyEe-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cThmoNdyEe-BM87g6wvnIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cTkC4NdyEe-BM87g6wvnIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cTkp8NdyEe-BM87g6wvnIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <standard:Create xmi:id="_cUq2INdyEe-BM87g6wvnIg" base_BehavioralFeature="_cUEZMNdyEe-BM87g6wvnIg"/>
+  <standard:Create xmi:id="_cU44kNdyEe-BM87g6wvnIg" base_BehavioralFeature="_cU3DYddyEe-BM87g6wvnIg"/>
+  <standard:Create xmi:id="_cVFs4NdyEe-BM87g6wvnIg" base_BehavioralFeature="_cVEewNdyEe-BM87g6wvnIg"/>
+  <Codegen:External xmi:id="_cVZ18NdyEe-BM87g6wvnIg" name="java.lang.String" base_Classifier="_cVYAwddyEe-BM87g6wvnIg"/>
+  <standard:Create xmi:id="_cVf8kNdyEe-BM87g6wvnIg" base_BehavioralFeature="_cVeucNdyEe-BM87g6wvnIg"/>
+  <Codegen:External xmi:id="_cVnRUNdyEe-BM87g6wvnIg" name="primitivetype.Boolean" base_Classifier="_cVmDMddyEe-BM87g6wvnIg"/>
+  <standard:Create xmi:id="_cVwbQNdyEe-BM87g6wvnIg" base_BehavioralFeature="_cVv0MddyEe-BM87g6wvnIg"/>
+  <Codegen:External xmi:id="_cVzekNdyEe-BM87g6wvnIg" name="primitivetype.Integer" base_Classifier="_cVShMNdyEe-BM87g6wvnIg"/>
+</xmi:XMI>
